@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    gap: 5px;
+}
+
+.tile {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.correct {
+    background-color: green;
+}
+
+.close {
+    background-color: yellow;
+}
+
+.incorrect {
+    background-color: gray;
+}
